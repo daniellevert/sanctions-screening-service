@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdnList xmlns="https://example.test/synthetic-sdn">
+  <publshInformation><Publish_Date>01/15/2025</Publish_Date><Record_Count>6</Record_Count></publshInformation>
+  <sdnEntry>
+    <uid>10001</uid><firstName>Alicia</firstName><lastName>Marten</lastName><sdnType>Individual</sdnType>
+    <akaList>
+      <aka><uid>90001</uid><type>a.k.a.</type><category>strong</category><firstName>Alisha</firstName><lastName>Martin</lastName></aka>
+      <aka><uid>90002</uid><type>a.k.a.</type><category>weak</category><firstName>Secret</firstName><lastName>Alias</lastName></aka>
+    </akaList>
+    <dateOfBirthList><dateOfBirthItem><uid>91001</uid><dateOfBirth>14 Jun 1985</dateOfBirth><mainEntry>true</mainEntry></dateOfBirthItem></dateOfBirthList>
+  </sdnEntry>
+  <sdnEntry>
+    <uid>10002</uid><firstName>Martha</firstName><lastName>Thorne</lastName><sdnType>Individual</sdnType>
+    <dateOfBirthList><dateOfBirthItem><uid>91002</uid><dateOfBirth>1990</dateOfBirth><mainEntry>true</mainEntry></dateOfBirthItem></dateOfBirthList>
+  </sdnEntry>
+  <sdnEntry><uid>10003</uid><lastName>Shared Target</lastName><sdnType>Entity</sdnType></sdnEntry>
+  <sdnEntry><uid>10004</uid><lastName>Shared Target</lastName><sdnType>Vessel</sdnType></sdnEntry>
+  <sdnEntry><uid>10005</uid><lastName>Sky Example</lastName><sdnType>Aircraft</sdnType></sdnEntry>
+  <sdnEntry>
+    <uid>10006</uid><firstName>Renée Élise</firstName><lastName>Dubois-Martin</lastName><sdnType>Individual</sdnType>
+    <dateOfBirthList><dateOfBirthItem><uid>91006</uid><dateOfBirth>29 Feb 1980</dateOfBirth><mainEntry>true</mainEntry></dateOfBirthItem></dateOfBirthList>
+  </sdnEntry>
+</sdnList>
